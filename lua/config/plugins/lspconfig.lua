@@ -151,7 +151,11 @@ return {
         cssls = {},
         pyright = {},
         phpactor = {},
-        superhtml = {},
+        html = {},
+        djlint = {},
+        emmet_ls = {
+          filetypes = { 'html', 'htmldjango', 'css', 'javascript' },
+        },
         lua_ls = {
           settings = {
             Lua = {
