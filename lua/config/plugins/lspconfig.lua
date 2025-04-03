@@ -149,10 +149,11 @@ return {
       local servers = {
         rust_analyzer = {},
         cssls = {},
-        pyright = {},
         phpactor = {},
         html = {},
         djlint = {},
+        ruff = {},
+        pyright = {},
         emmet_ls = {
           filetypes = { 'html', 'htmldjango', 'css', 'javascript' },
         },

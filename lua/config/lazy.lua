@@ -24,15 +24,22 @@ vim.g.maplocalleader = '  '
 -- Setup lazy.nvim
 require('lazy').setup({
   spec = {
-    -- { "EdenEast/nightfox.nvim", lazy = false, priority = 1000, opts = {}, config = function() vim.cmd.colorscheme "Nightfox" end },
-    -- { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
     {
-      'projekt0n/github-nvim-theme',
-      name = 'github-theme',
+      'EdenEast/nightfox.nvim',
+      lazy = false,
+      priority = 1000,
+      opts = {},
       config = function()
-        vim.cmd.colorscheme 'github_dark_tritanopia'
+        vim.cmd.colorscheme 'Nightfox'
       end,
     },
+    -- {
+    --   'projekt0n/github-nvim-theme',
+    --   name = 'github-theme',
+    --   config = function()
+    --     vim.cmd.colorscheme 'github_dark_tritanopia'
+    --   end,
+    -- },
     { import = 'config.plugins' },
   },
 }, {
