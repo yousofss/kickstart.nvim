@@ -1,32 +1,6 @@
 return {
   'folke/trouble.nvim',
-  opts = {
-    preview = {
-      type = 'float',
-      relative = 'editor',
-      row = 0.1,
-      col = 0.2,
-      width = 0.6,
-      height = 0.6,
-      zindex = 200,
-      border = 'rounded',
-    },
-    modes = {
-      telescope = {
-        auto_preview = true,
-        preview = {
-          type = 'float',
-          relative = 'editor',
-          row = 0.1,
-          col = 0.2,
-          width = 0.6,
-          height = 0.6,
-          zindex = 200,
-          border = 'rounded',
-        },
-      },
-    },
-  },
+  opts = {},
   cmd = 'Trouble',
   keys = {
     {
