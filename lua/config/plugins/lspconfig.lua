@@ -149,7 +149,6 @@ return {
       local servers = {
         rust_analyzer = {},
         cssls = {},
-        phpactor = {},
         html = {},
         djlint = {},
         ruff = {},

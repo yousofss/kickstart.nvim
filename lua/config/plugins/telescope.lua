@@ -20,11 +20,17 @@ return {
     config = function()
       -- [[ Configure Telescope ]]
       require('telescope').setup {
-        -- defaults = {
-        --   mappings = {
-        --     i = { ['<c-enter>'] = 'to_fuzzy_refine' },
-        --   },
-        -- },
+        defaults = {
+          mappings = {
+            i = {
+              ['<c-enter>'] = 'to_fuzzy_refine',
+              ['<c-t>'] = require('trouble.sources.telescope').open,
+            },
+            n = {
+              ['<c-t>'] = require('trouble.sources.telescope').open,
+            },
+          },
+        },
         -- pickers = {}
         extensions = {
           ['ui-select'] = {
