@@ -156,6 +156,7 @@ return {
         emmet_ls = {
           filetypes = { 'html', 'htmldjango', 'css', 'javascript' },
         },
+        phpactor = {},
         lua_ls = {
           settings = {
             Lua = {
