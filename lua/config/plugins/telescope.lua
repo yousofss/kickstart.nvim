@@ -25,9 +25,11 @@ return {
             i = {
               ['<c-enter>'] = 'to_fuzzy_refine',
               ['<c-t>'] = require('trouble.sources.telescope').open,
+              ['<c-o>'] = 'select_tab',
             },
             n = {
               ['<c-t>'] = require('trouble.sources.telescope').open,
+              ['<c-o>'] = 'select_tab',
             },
           },
         },
