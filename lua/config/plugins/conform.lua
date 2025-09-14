@@ -11,7 +11,7 @@ end
 
 vim.api.nvim_create_user_command('ToggleFormatOnSave', toggle_format_on_save, {})
 
-vim.keymap.set('n', '<leader>tf', toggle_format_on_save, { desc = '[T]oggle [F]ormat on save' })
+vim.keymap.set('n', '<leader>fs', toggle_format_on_save, { desc = '[T]oggle [F]ormat on save' })
 
 return {
   { -- Autoformat
